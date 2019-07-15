@@ -136,9 +136,9 @@
   <label><input type="checkbox" name="hr">Хронометраж</label>
   <label><input type="checkbox" name="sv">Свои наработки</label>
   </p>
-  <p>Сколько часов в день вы спите?</p>
+  <p><label for="sleep">Сколько часов в день вы спите?</label></p>
   <p>
-  <select name="sleep" size="5" multiple>
+  <select name="sleep" size="5" id="sleep" multiple>
   <option>5</option>
   <option>6</option>
   <option value="seven">7</option>
@@ -146,6 +146,8 @@
   <option>8+</option>
   </select>
   </p>
+  <p><label for="text">Поделитесь своими наработками по экономии времени:</label></p>
+  <textarea name="text" cols="50" rows="6" id="text">Тестовый текст...</textarea>
 
   </form>
 

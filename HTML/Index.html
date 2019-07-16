@@ -113,6 +113,8 @@
   organized. I keep a folder for SALES, another one for
   FEEDBACK and others for JOINT VENTURES + many more.</p>
 
+  ------------------------------------------------------------------------------
+
   <table border="1" width="1000" align="center" cellpadding="10" cellspacing="5">
   <tr><th>Дата</th><th>Время</th><th>Продукт</th><th>Место</th><th colspan="3">Жиры, Белки, Углеводы</th><th>Деньги</th></tr>
   <tr align="center"><td>12.12.2011</td><td>19.00</td><td>Кефир</td><td>Москва</td><td>1</td><td>3</td><td>5</td><td>30</td></tr>
@@ -121,21 +123,28 @@
   <tr align="center"><td>11.00</td><td>Йогурт</td><td>Владимир</td><td>3</td><td>6</td><td>5</td><td>30</td></tr>
   </table>
 
+  ------------------------------------------------------------------------------
+
   <p><a href="Files/100 Рентгенограмм.pdf">Скачать эту статью в PDF</a></p>
   <P><a href="#header">Перейти к началу статьи</a></p>
   <p><a href="mailto:prostosvidetel@gmail.com">Связаться с автором статьи</a></p>
 
+  ------------------------------------------------------------------------------
+
   <form action="formdata.php" method="POST" name="Form1">
   <p><label>Введите Ваше имя (макс. 10 символов) : <input type="text" name="name" size="30" maxlength="10"></label></p>
   <p><label>Введите Ваш пароль (макс. 10 символов) : <input type="password" name="name" size="30" maxlength="10"></label></p>
+
   <p>Любите ли вы экономить время? </p>
   <p><label>Да<input type="radio" name="time" value="yes" checked></label> <label>Нет<input type="radio" name="time" value="no"></label></p>
+
   <p>Какими инструментами вы пользуетесь? </p>
   <p>
   <label><input type="checkbox" name="ez">Ежедневник</label>
   <label><input type="checkbox" name="hr">Хронометраж</label>
   <label><input type="checkbox" name="sv">Свои наработки</label>
   </p>
+
   <p><label for="sleep">Сколько часов в день вы спите?</label></p>
   <p>
   <select name="sleep" size="5" id="sleep" multiple>
@@ -146,10 +155,17 @@
   <option>8+</option>
   </select>
   </p>
-  <p><label for="text">Поделитесь своими наработками по экономии времени:</label></p>
-  <textarea name="text" cols="50" rows="6" id="text">Тестовый текст...</textarea>
 
+  <p><label for="text">Поделитесь своими наработками по экономии времени:</label></p>
+  <p><textarea name="text" cols="50" rows="6" id="text">Тестовый текст...</textarea></p>
+
+  <p><input type="reset" name="reset" value="Сброс"> <input type="submit" name="submit" value="Отправить"></p>
+  <p><input type="image" src="Images/ibutton.png" name="imageButton"></p>
+  <p><input type="button" value="Кнопка" name="button"></p>
+  
   </form>
+
+  <!--<button type="reset"><img src="images/ibutton.png"></button>-->
 
 </body>
 </html>

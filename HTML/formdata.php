@@ -1,5 +1,7 @@
 <?php
-$a = 5;
-echo $a;
+
+echo $_POST['password'];
+echo $_POST['name'];
+echo $_POST['sleep'];
 
 ?>

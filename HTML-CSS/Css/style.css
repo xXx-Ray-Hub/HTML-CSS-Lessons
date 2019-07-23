@@ -2,6 +2,14 @@ p {
 color:#404040;
 }
 
+/*p {
+font-family:Verdana, Tahoma, sans-serif;
+}*/
+
+p {
+font-family:"Courier New";
+}
+
 #header {
 color:#c32017;
 }

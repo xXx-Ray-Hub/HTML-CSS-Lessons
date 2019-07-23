@@ -15,10 +15,6 @@ font-size: 16px;
 color: #c32017;
 }
 
-.new {
-color: #6be5c3;
-}
-
 h2, #myList {
 color: #404040
 }
@@ -47,10 +43,19 @@ a:active {
 color: #008000;
 }
 
+.new {
+color: #6be5c3;
+}
+
 .new2 {
 font-style: italic;
 }
 
 .new3 {
 font-weight: bold;
+text-decoration: line-through;
+}
+
+a {
+text-decoration: none;
 }

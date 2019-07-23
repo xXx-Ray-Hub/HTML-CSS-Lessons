@@ -18,6 +18,22 @@ ul li {
 color:#cc0000;
 }
 
-#bt p a {
+/*#bt p a {
 color:#faa21a;
+}*/
+
+a:link {
+color:#111111;
+}
+
+a:visited {
+color:#faa21a;
+}
+
+a:hover {
+color:#800000;
+}
+
+a:active {
+color:#008000;
 }

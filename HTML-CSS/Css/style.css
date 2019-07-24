@@ -31,7 +31,7 @@ h2, #myList {
 color: #404040
 }
 
-ul li {
+ol li {
 color: #cc0000;
 }
 
@@ -81,4 +81,15 @@ text-decoration: line-through;
 
 .new4 {
 text-align: justify;
+}
+
+ul {
+/*list-style-type: upper-roman;*/
+list-style-image: url(../Images/Arrow.png);
+list-style-position: inside;
+/*list-style: inside url(../Images/Arrow.png); Сокращенная запись!!!*/
+}
+
+ul li {
+border: 1px solid #cccccc;
 }

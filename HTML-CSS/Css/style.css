@@ -1,19 +1,22 @@
+#header {
+color: #c32017;
+text-align: center;
+}
+
 p {
 color: #404040;
 }
 
-/*p {
-font-family: Verdana, Tahoma, sans-serif;
-}*/
-
 p {
+font-family: Verdana, Tahoma, sans-serif;
+font-size: 16px;
+text-indent: 32px;
+}
+
+/*p {
 font-family: "Courier New";
 font-size: 16px;
-}
-
-#header {
-color: #c32017;
-}
+}*/
 
 h2, #myList {
 color: #404040
@@ -43,6 +46,10 @@ a:active {
 color: #008000;
 }
 
+a {
+text-decoration: none;
+}
+
 .new {
 color: #6be5c3;
 }
@@ -56,6 +63,6 @@ font-weight: bold;
 text-decoration: line-through;
 }
 
-a {
-text-decoration: none;
+.new4 {
+text-align: justify;
 }

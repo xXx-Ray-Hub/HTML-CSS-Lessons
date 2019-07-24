@@ -1,6 +1,8 @@
 #header {
 color: #c32017;
 text-align: center;
+text-transform: capitalize;
+font-variant: small-caps;
 }
 
 p {
@@ -11,6 +13,9 @@ p {
 font-family: Verdana, Tahoma, sans-serif;
 font-size: 16px;
 text-indent: 32px;
+line-height: normal;
+word-spacing: normal;
+letter-spacing: normal;
 }
 
 /*p {

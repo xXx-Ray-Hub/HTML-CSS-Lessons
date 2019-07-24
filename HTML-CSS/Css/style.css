@@ -3,6 +3,10 @@ color: #c32017;
 text-align: center;
 text-transform: capitalize;
 font-variant: small-caps;
+border-width: 2px;
+border-style: solid;
+border-color: #faa21a;
+/*border: 2px solid #faa21a; Сокращенная запись!!!*/
 }
 
 p {
@@ -53,11 +57,17 @@ color: #008000;
 
 a {
 text-decoration: none;
+border-bottom: 2px dashed #c32017;
 }
 
 .new {
 color: #6be5c3;
-font: italic bold 20px/30px Tahoma;
+font-style: italic;
+font-weight: bold;
+font-size: 20px;
+line-height: 30px;
+font-family: Tahoma;
+/*font: italic bold 20px/30px Tahoma; Сокращенная запись!!!*/
 }
 
 .new2 {

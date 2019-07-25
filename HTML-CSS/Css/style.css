@@ -1,4 +1,30 @@
+body {
+font: 14px Tahoma;
+color: rgb(0, 0, 0);
+}
+
 #header {
+text-align: center;
+text-transform: capitalize;
+}
+
+p {
+text-indent: 32px;
+}
+
+a {
+text-decoration: none;
+border-bottom: 2px dashed #c32017;
+}
+
+ul {
+/*list-style-type: upper-roman;*/
+list-style-image: url(../Images/Arrow.png);
+list-style-position: inside;
+/*list-style: inside url(../Images/Arrow.png); Сокращенная запись!!!*/
+}
+
+/*#header {
 color: #c32017;
 text-align: center;
 text-transform: capitalize;
@@ -6,7 +32,7 @@ font-variant: small-caps;
 border-width: 2px;
 border-style: solid;
 border-color: #faa21a;
-/*border: 2px solid #faa21a; Сокращенная запись!!!*/
+border: 2px solid #faa21a; Сокращенная запись!!!
 }
 
 p {
@@ -22,10 +48,10 @@ word-spacing: normal;
 letter-spacing: normal;
 }
 
-/*p {
+p {
 font-family: "Courier New";
 font-size: 16px;
-}*/
+}
 
 h2, #myList {
 color: #404040
@@ -35,9 +61,16 @@ ol li {
 color: #cc0000;
 }
 
-/*#bt p a {
+ul {
+list-style-type: upper-roman;
+list-style-image: url(../Images/Arrow.png);
+list-style-position: inside;
+list-style: inside url(../Images/Arrow.png); Сокращенная запись!!!
+}
+
+#bt p a {
 color: #faa21a;
-}*/
+}
 
 a:link {
 color: #111111;
@@ -55,11 +88,6 @@ a:active {
 color: #008000;
 }
 
-a {
-text-decoration: none;
-border-bottom: 2px dashed #c32017;
-}
-
 .new {
 color: #6be5c3;
 font-style: italic;
@@ -67,8 +95,8 @@ font-weight: bold;
 font-size: 20px;
 line-height: 30px;
 font-family: Tahoma;
-/*font: italic bold 20px/30px Tahoma; Сокращенная запись!!!*/
-}
+font: italic bold 20px/30px Tahoma; Сокращенная запись!!!
+}*/
 
 .new2 {
 font-style: italic;
@@ -81,15 +109,4 @@ text-decoration: line-through;
 
 .new4 {
 text-align: justify;
-}
-
-ul {
-/*list-style-type: upper-roman;*/
-list-style-image: url(../Images/Arrow.png);
-list-style-position: inside;
-/*list-style: inside url(../Images/Arrow.png); Сокращенная запись!!!*/
-}
-
-ul li {
-border: 1px solid #cccccc;
 }

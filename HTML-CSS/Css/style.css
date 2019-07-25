@@ -1,6 +1,6 @@
 body {
 font: 14px Tahoma;
-color: rgb(0, 0, 0);
+color: rgb(0, 0, 0); /*Черный 0 баллов*/
 }
 
 #header {
@@ -18,10 +18,24 @@ border-bottom: 2px dashed #c32017;
 }
 
 ul {
-/*list-style-type: upper-roman;*/
 list-style-image: url(../Images/Arrow.png);
-list-style-position: inside;
-/*list-style: inside url(../Images/Arrow.png); Сокращенная запись!!!*/
+color: rgb(115, 0, 156); /*Фиолетовый 0 баллов*/
+}
+
+li {
+color: rgb(181, 210, 9); /*Желтый 1 балл*/
+}
+
+.new-li {
+color: rgb(173, 17, 2); /*Красный 10 баллов*/
+}
+
+#liSuper {
+color: rgb(3, 16, 171); /*Синий 100 баллов*/
+}
+
+#myList2 li.new-li {
+color: rgb(0, 195, 181); /*Бирюзовый 111 баллов*/
 }
 
 /*#header {

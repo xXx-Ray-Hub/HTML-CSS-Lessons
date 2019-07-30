@@ -28,13 +28,25 @@ text-decoration: none;
 #div1 {
 margin: 30px 0 0 0;
 padding: 30px;
-border: 1px solid rgb(0, 0, 255)
+border: 1px solid rgb(0, 0, 255);
 }
 
 #p1 {
 margin: 20px 0 0 0;
 padding: 20px;
-border: 1px solid rgb(255, 0, 0)
+border: 1px solid rgb(255, 0, 0);
+}
+
+#span1 {
+border: 1px solid rgb(255, 0, 0);
+padding: 0px 30px;
+margin: 30px 30px;
+display: block;
+}
+
+ol li {
+display: inline;
+border: 1px solid rgb(139, 0, 255);
 }
 
 /*ul {

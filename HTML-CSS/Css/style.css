@@ -4,6 +4,7 @@ color: rgb(0, 0, 0); /*Черный 0 баллов*/
 padding: 15px;
 margin: 0 auto;
 width: 1200px;
+background-color: rgb(180, 180, 180);
 }
 
 #header {
@@ -11,15 +12,12 @@ text-align: center;
 text-transform: capitalize;
 padding: 40px 20px;
 margin: 20px auto 10px auto;
-/*padding: 40px 20px;
-margin: 10px 5px;*/ /*Сокращенная запись, если "top" и "bottom", "right" и "left" одинаковые!!!*/
 width: 600px;
 overflow: hidden;
+background-color: rgb(0, 0, 255);
+color: rgb(255, 255, 255);
+border: 5px solid rgb(255, 255, 0)
 }
-
-/*p {
-text-indent: 32px;
-}*/
 
 a {
 text-decoration: none;
@@ -37,6 +35,29 @@ padding: 20px;
 border: 1px solid rgb(255, 0, 0);
 }
 
+#main {
+width: 800px;
+height: 420px;
+margin: auto;
+outline: 0px solid rgb(255, 0, 0);
+background-image: url(../Images/bg.jpg);
+}
+
+#main h1 {
+text-align: center;
+outline: 0px solid rgb(0, 0, 255);
+padding-top: 180px;
+font: 36px Verdana;
+}
+
+#table {
+margin: 50px auto;
+}
+
+/*p {
+text-indent: 32px;
+}
+
 #span1 {
 border: 1px solid rgb(255, 0, 0);
 padding: 0px 30px;
@@ -49,7 +70,7 @@ display: inline;
 border: 1px solid rgb(139, 0, 255);
 }
 
-/*ul {
+ul {
 list-style-image: url(../Images/Arrow.png);
 color: rgb(115, 0, 156); /*Фиолетовый 0 баллов
 }

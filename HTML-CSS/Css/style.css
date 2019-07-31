@@ -41,7 +41,7 @@ border: 1px solid rgb(255, 0, 0);
 width: 800px;
 height: 420px;
 margin: auto;
-outline: 0px solid rgb(255, 0, 0);
+outline: 1px solid rgb(255, 0, 0);
 background-color: inherit;
 background-image: url(../Images/bg_s.jpg);
 background-repeat: repeat-x;
@@ -49,9 +49,12 @@ background-repeat: repeat-x;
 
 #main h1 {
 text-align: center;
-outline: 0px solid rgb(0, 0, 255);
+outline: 1px solid rgb(0, 0, 255);
 padding-top: 180px;
 font: 36px Verdana;
+background-image: url(../Images/logo.png);
+background-repeat: no-repeat;
+background-position: 135px 188px;
 }
 
 #table {

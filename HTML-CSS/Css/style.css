@@ -64,6 +64,7 @@ background-image: url(../Images/tel.jpg);
 background-repeat: no-repeat;
 background-position: 0 120px;
 background-attachment: fixed;
+/*background: url(../Images/tel.jpg) no-repeat fixed 0 120px; Сoкращенная запись!!!*/
 }
 
 #table {

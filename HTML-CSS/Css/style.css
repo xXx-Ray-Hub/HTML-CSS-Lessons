@@ -1,9 +1,10 @@
 body {
 font: 14px Tahoma;
 color: rgb(0, 0, 0); /*Черный 0 баллов*/
-padding: 15px;
+padding: 0px;
 margin: 0 auto;
-width: 1200px;
+/*width: 1200px;*/
+outline: 1px solid rgb(0, 0, 0);
 background-color: rgb(180, 180, 180);
 background-image: url(../Images/pt.png);
 background-repeat: repeat;
@@ -41,20 +42,28 @@ border: 1px solid rgb(255, 0, 0);
 width: 800px;
 height: 420px;
 margin: auto;
-outline: 1px solid rgb(255, 0, 0);
-background-color: inherit;
+outline: 0px solid rgb(255, 0, 0);
+background-color: rgb(67, 138, 97);
 background-image: url(../Images/bg_s.jpg);
 background-repeat: repeat-x;
 }
 
 #main h1 {
 text-align: center;
-outline: 1px solid rgb(0, 0, 255);
+outline: 0px solid rgb(0, 0, 255);
 padding-top: 180px;
 font: 36px Verdana;
 background-image: url(../Images/logo.png);
 background-repeat: no-repeat;
 background-position: 135px 188px;
+}
+
+#wrapper {
+outline: 0px solid rgb(255, 0, 0);
+background-image: url(../Images/tel.jpg);
+background-repeat: no-repeat;
+background-position: 0 120px;
+background-attachment: fixed;
 }
 
 #table {

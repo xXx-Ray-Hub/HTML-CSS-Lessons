@@ -1,12 +1,12 @@
 body {
 font: 14px Tahoma;
 color: rgb(0, 0, 0); /*Черный 0 баллов*/
-padding: 0px;
-margin: 0 auto;
-/*width: 1200px;*/
+padding: 15px;
+margin: 15px auto;
+width: 1200px;
 outline: 1px solid rgb(0, 0, 0);
-background-color: rgb(180, 180, 180);
-background-image: url(../Images/pt.png);
+background-color: rgba(180, 180, 180, 0.25);
+/*background-image: url(../Images/pt.png);*/
 background-repeat: repeat;
 }
 
@@ -17,7 +17,7 @@ padding: 40px 20px;
 margin: 20px auto 10px auto;
 width: 600px;
 overflow: hidden;
-background-color: rgb(0, 0, 255);
+background-color: rgb(255, 0, 0);
 color: rgb(255, 255, 255);
 border: 5px solid rgb(255, 255, 0)
 }
@@ -41,7 +41,7 @@ border: 1px solid rgb(255, 0, 0);
 #main {
 width: 800px;
 height: 420px;
-margin: auto;
+margin: 50px auto;
 outline: 0px solid rgb(255, 0, 0);
 background-color: rgb(67, 138, 97);
 background-image: url(../Images/bg_s.jpg);
@@ -62,13 +62,36 @@ background-position: 135px 188px;
 outline: 0px solid rgb(255, 0, 0);
 background-image: url(../Images/tel.jpg);
 background-repeat: no-repeat;
-background-position: 0 120px;
+background-position: 160px 120px;
 background-attachment: fixed;
 /*background: url(../Images/tel.jpg) no-repeat fixed 0 120px; Сoкращенная запись!!!*/
 }
 
-#table {
-margin: 50px auto;
+table, td, th {
+border: 1px solid rgb(0, 0, 0);
+text-align: center;
+}
+
+table {
+width: 1200px;
+/*height: 200px;*/
+border-collapse: collapse;
+margin: 25px auto;
+}
+
+td, th {
+height: 49px;
+/*padding: 5px;*/
+vertical-align: middle;
+background-color: rgb(255, 255, 255);
+}
+
+th {
+background-image: url(../Images/tablebg.jpg);
+}
+
+tr.blue td {
+background-color: rgba(93, 217, 164, 0.67);
 }
 
 /*p {

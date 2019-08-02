@@ -15,7 +15,7 @@ fieldset {
  padding: 10px;
  margin: 10px;
  border: 1px solid rgb(0, 0, 0);
- background-color: rgba(200, 200, 200, 0.25);
+ background-color: rgba(200, 200, 200, 0.75);
 }
 
 textarea {
@@ -24,8 +24,36 @@ textarea {
  width: 558px;
  padding: 10px;
  margin: 2px 10px;
+ font: 13px Verdana, sans-serif;
+}
+
+textarea:focus {
+ border: 2px solid rgb(0, 0, 0);
+ background: none;
+ /*background-color: rgb(255, 255, 255);*/ /*Если не прописывать background-color, то цвет будет белым, как по-умолчанию!!!*/
 }
 
 .tap {
  margin-left: 10px;
+}
+
+.input {
+ border: 1px solid rgb(0, 0, 0);
+ height: 25px;
+ width: 300px;
+ background-image: url(../Images/inputbg.jpg);
+ background-repeat: repeat-x;
+ font: 13px Verdana, sans-serif;
+ padding: 0 7px;
+ /*line-height: 25px;*/ /*Для Internet Explorer версии 7 и ниже!!!*/
+}
+
+.input:focus {
+ border: 2px solid rgb(0, 0, 0);
+ background-image: none;
+ /*background-color: rgb(255, 255, 255);*/ /*Если не прописывать background-color, то цвет будет белым, как по-умолчанию!!!*/
+}
+
+label {
+ cursor: pointer;
 }

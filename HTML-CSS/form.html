@@ -1,0 +1,64 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <title>HTML-CSS-Lessons</title>
+  <link href="Css/style_form.css" type="text/css" rel="stylesheet">
+ </head>
+
+ <body>
+  <div id="wrapper">
+   <form action="formdata.php" method="POST" name="Form1">
+   <fieldset>
+   <legend>Ввод личных данных</legend>
+   <p class="question"><label for="name">Введите Ваше имя (макс. 10 символов):</label></p>
+   <p><input type="text" name="name" id="name" size="30" maxlength="10"></p>
+   <p class="question"><label for="password">Введите Ваш пароль (макс. 10 символов):</label></p>
+   <p><input type="password" name="password" id="password" size="30" maxlength="10"></p>
+   </fieldset>
+
+   <fieldset>
+   <legend>Вопросы</legend>
+   <p class="question">Любите ли вы экономить время? </p>
+   <p><label>Да<input type="radio" name="time" value="yes" checked></label> <label>Нет<input type="radio" name="time" value="no"></label></p>
+
+   <p class="question">Какими инструментами вы пользуетесь?</p>
+   <p>
+   <label><input type="checkbox" name="ez">Ежедневник</label>
+   <label><input type="checkbox" name="hr">Хронометраж</label>
+   <label><input type="checkbox" name="sv">Свои наработки</label>
+   </p>
+
+   <p class="question"><label for="sleep">Сколько часов в день вы спите?</label></p>
+   <p>
+   <select name="sleep" size="5" id="sleep" multiple>
+   <option>5</option>
+   <option>6</option>
+   <option value="seven">7</option>
+   <option selected>8</option>
+   <option>8+</option>
+   </select>
+   </p>
+   </fieldset>
+
+   <p class="question tap"><label for="text">Поделитесь своими наработками по экономии времени:</label></p>
+   <p><textarea name="text" cols="50" rows="6" id="text">Тестовый текст...</textarea></p>
+
+   <!--<p><input type="reset" name="reset" value="Сброс"> <input type="submit" name="submit" value="Отправить"></p>-->
+
+   <p><input type="image" src="Images/bluebutton.jpg" name="imageButton"></p>
+
+   <!--<p><input type="button" value="Кнопка" name="button"></p>-->
+
+   </form>
+
+   <!--<button type="reset"><img src="images/ibutton.png"></button>-->
+
+   <!--<img src="Images/time.jpg" border="1" width="600" height="214" alt="Продажа часов" vspace="20" usemap="#forTime">
+   <map id="forTime" name="forTime">
+   <area href="http://photoshop-master.ru" shape="rect" alt="Продажа часов" coords="40,15,295,80">
+   <area href="http://photoshop-master.ru" shape="rect" alt="Продажа часов" coords="310,15,555,80">
+   </map>-->
+  </div>
+ </body>
+</html>

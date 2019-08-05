@@ -11,20 +11,28 @@
   margin-bottom: 15px;
 }
 
-#sidebar {
-  height: 100px;
+#sidebarL {
   background-color: rgb(120, 120, 120);
   margin-bottom: 15px;
   width: 240px;
   float: left;
 }
 
-#content {
-  height: 100px;
-  background-color: rgb(219, 10, 8);
+#sidebarR {
+  background-color: rgb(120, 120, 120);
   margin-bottom: 15px;
-  width: 950px;
-  margin-left: 250px;
+  width: 240px;
+  float: right;
+}
+
+#content {
+  background-color: rgb(219, 10, 8);
+  margin: 0 auto 15px auto;
+  width: 700px;
+}
+
+.clear {
+  clear: both;
 }
 
 #footer {

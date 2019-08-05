@@ -5,7 +5,7 @@ padding: 15px;
 margin: 15px auto;
 width: 1200px;
 outline: 1px solid rgb(0, 0, 0);
-background-color: rgba(180, 180, 180, 0.25);
+background-color: rgb(255, 255б 255);
 /*background-image: url(../Images/pt.png);*/
 background-repeat: repeat;
 }
@@ -26,6 +26,7 @@ a {
 text-decoration: none;
 }
 
+/*Это конфликт полей!!!
 #div1 {
 margin: 30px 0 0 0;
 padding: 30px;
@@ -36,8 +37,9 @@ border: 1px solid rgb(0, 0, 255);
 margin: 20px 0 0 0;
 padding: 20px;
 border: 1px solid rgb(255, 0, 0);
-}
+}*/
 
+/*Это фоновое изображение!!!
 #main {
 width: 800px;
 height: 420px;
@@ -64,8 +66,8 @@ background-image: url(../Images/tel.jpg);
 background-repeat: no-repeat;
 background-position: 160px 120px;
 background-attachment: fixed;
-/*background: url(../Images/tel.jpg) no-repeat fixed 0 120px; Сoкращенная запись!!!*/
-}
+/*background: url(../Images/tel.jpg) no-repeat fixed 0 120px; Сoкращенная запись!!!
+}*/
 
 table, td, th {
 border: 1px solid rgb(0, 0, 0);
@@ -94,17 +96,18 @@ tr.blue td {
 background-color: rgba(93, 217, 164, 0.67);
 }
 
-/*p {
+*p {
 text-indent: 32px;
 }
 
-#span1 {
+/*#span1 {
 border: 1px solid rgb(255, 0, 0);
 padding: 0px 30px;
 margin: 30px 30px;
 display: block;
-}
+}*/
 
+/*Это оформление списков!!!
 ol li {
 display: inline;
 border: 1px solid rgb(139, 0, 255);
@@ -112,24 +115,24 @@ border: 1px solid rgb(139, 0, 255);
 
 ul {
 list-style-image: url(../Images/Arrow.png);
-color: rgb(115, 0, 156); /*Фиолетовый 0 баллов
+color: rgb(115, 0, 156); Фиолетовый 0 баллов
 }
 
-/*li {
-color: rgb(181, 210, 9); /*Желтый 1 балл
+li {
+color: rgb(181, 210, 9); Желтый 1 балл
 }
 
 .new-li {
-color: rgb(173, 17, 2); /*Красный 10 баллов
+color: rgb(173, 17, 2); Красный 10 баллов
 }
 
 #liSuper {
-color: rgb(3, 16, 171); /*Синий 100 баллов
+color: rgb(3, 16, 171); Синий 100 баллов
 }
 
 #myList2 li.new-li {
-color: rgb(0, 195, 181); /*Бирюзовый 111 баллов
-}
+color: rgb(0, 195, 181); Бирюзовый 111 баллов
+}*/
 
 /*#header {
 color: #c32017;
@@ -173,8 +176,9 @@ list-style-type: upper-roman;
 list-style-image: url(../Images/Arrow.png);
 list-style-position: inside;
 list-style: inside url(../Images/Arrow.png); Сокращенная запись!!!
-}
+}*/
 
+/*Это оформление ссылок!!!
 #bt p a {
 color: #faa21a;
 }
@@ -193,9 +197,9 @@ color: #800000;
 
 a:active {
 color: #008000;
-}
+}*/
 
-.new {
+/*.new {
 color: #6be5c3;
 font-style: italic;
 font-weight: bold;
@@ -216,4 +220,11 @@ text-decoration: line-through;
 
 .new4 {
 text-align: justify;
+}
+
+#alarm {
+float: right;
+outline: 1px solid blue;
+border: none;
+margin: 20px 0 20px 50px;
 }

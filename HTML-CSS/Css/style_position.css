@@ -33,6 +33,18 @@ body {
   top: -14px;
 }
 
+#operator {
+  position: fixed;
+  width: 22px;
+  height: 180px;
+  top: 250px;
+  left: 0px;
+}
+
+#operator img {
+  border: none;
+}
+
 /*#conteiner {
   position: absolute;
   width: 300px;

@@ -1,0 +1,21 @@
+body {
+  background-color: rgb(150, 150, 150);
+  font: 11px Verdana;
+  color: rgb(100, 100, 100)
+}
+
+#wrapper {
+  width: 650px;
+  margin: 30px auto;
+  background-color: rgb(200, 200, 200);
+}
+
+#header {
+  height: 75px;
+  background-image: url(../Images/redHeader.png);
+  background-repeat: no-repeat;
+}
+
+#content {
+  padding: 20px 30px;
+}

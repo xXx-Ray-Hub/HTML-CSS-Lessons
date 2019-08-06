@@ -19,3 +19,18 @@ body {
 #content {
   padding: 20px 30px;
 }
+
+#new {
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+}
+
+#conteiner {
+  position: absolute;
+  width: 300px;
+  height: 240px;
+  background-color: rgb(166, 153, 221);
+  right: 0;
+  top: 0;
+}

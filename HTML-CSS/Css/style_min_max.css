@@ -1,0 +1,33 @@
+body {
+  background-color: rgb(150, 150, 150);
+  font: 11px Verdana;
+  color: rgb(100, 100, 100)
+}
+
+#wrapper {
+  margin: 30px auto;
+  background-color: rgb(200, 200, 200);
+  height: 520px;
+  min-width: 650px;
+  max-width: 1100px;
+}
+
+#sidebarL {
+  width: 200px;
+  height: 500px;
+  float: left;
+  outline: 1px solid rgb(255, 0, 0);
+}
+
+#sidebarR {
+  width: 200px;
+  height: 500px;
+  float: right;
+  outline: 1px solid rgb(255, 0, 0);
+}
+
+#content {
+  height: 500px;
+  margin: 0 220px 0 220px;
+  outline: 1px solid rgb(0, 0, 0);
+}

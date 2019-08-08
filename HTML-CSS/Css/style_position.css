@@ -1,4 +1,4 @@
-@import url("style_position2.css");
+/*@import url("style_position2.css");*/
 
 body {
   background-color: rgb(150, 150, 150);
@@ -53,6 +53,10 @@ body {
 
 #operator img {
   border: none;
+}
+
+#test {
+  padding: inherit;
 }
 
 /*#test {
